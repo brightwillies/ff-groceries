@@ -2,7 +2,7 @@
 Streamlit YOLOv7 Detector (FINAL WORKING VERSION)
 """
 import sys
-sys.path.append(r"C:\Users\harshika\Downloads\yolov7-main\yolov7-main")  # <-- IMPORTANT
+sys.path.append(r"yolov7-main")  # <-- IMPORTANT
 
 import streamlit as st
 import torch
@@ -15,7 +15,7 @@ import os
 # ============================
 # CONFIG
 # ============================
-MODEL_PATH = r"C:\Users\harshika\Downloads\Streamlit\yolov7_cheerios_soup_candle_best.pt"
+MODEL_PATH = r"yolov7_cheerios_soup_candle_best.pt"
 IMG_SIZE = 640
 CONF_THRESHOLD = 0.25
 
